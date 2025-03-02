@@ -17,15 +17,52 @@
                 <h1 style="font-size: 30px;font-family: Sigmar, serif;">Local Business Directory</h1>
             </div>
         <ul id="nav-items">
-          <li class="navLinks"><a href="">Home</a></li>
-          <li class="navLinks"><a href="">Services</a></li>
-          <li class="navLinks"><a href="">Location</a></li>
-          <li class="navLinks"><a href="">Review</a></li>
+          <li class="navLinks"><a href="index.html">Home</a></li>
+          <li class="navLinks"><a href="#services">Services</a></li>
+          <li class="navLinks"><a href="#iframeDisplay">Location</a></li>
+          <li class="navLinks"><a href="#Reviews">Review</a></li>
         </ul>
       </nav>
     </header>
     <main>
-        <br><br>    
+        <div id="image">
+          <br><br><br>
+          <h1 style="font-size: 60px;padding-top: 20px;color: white;">Bhutan's No. 1 Business Directory</h1>
+          <div id="searchBack">
+            <section><h3>What do you need:</h3></section>
+            <section>
+              <form action="https://www.google.com/search" method="get">
+                <input class="searchbar" name="q" placeholder="Search by Keyword" type="search">
+                <input type="submit" style="background-color: gold;margin-left: 10px;" class="searchbar">
+              </form>
+            </section>
+          </div>
+        </div>
+        <br>
+        <div id="svgImage">
+          <section>
+            <img class="svgImage" src="Images/search-outline (2).svg" alt="Search">
+            <h3>Search Local <br>
+             <small> Browse The Directory To Find What You Need</small></h3>
+              <button class="svgButton">Search by Category</button>
+          </section>
+          <section>
+            <img class="svgImage" src="Images/bar-chart-outline.svg" alt="Bar">
+            <h3>Compare Reviews <br>
+             <small>View and Compare Businesses You Find</small></h3>
+              <button class="svgButton">Search by Category</button>
+          </section>
+          <section>
+            <img class="svgImage" src="Images/mic-outline.svg" alt="Microphone">
+            <h3>Advertise Your Business <br>
+             <small>Join Today - Add Your Listing In 90 Seconds!</small></h3>
+              <button class="svgButton">Search by Category</button>
+          </section>
+        </div>
+        <br><br>
+        <h1 id="services">Customer Favorites</h1>
+        <h3>Our community's top businesses. Local and trusted!</h3>  
+        <br><br>
         <div class="container">
             <div class="imageDisplay">
                 <a href="https://www.bhutanairlines.bt/" target="_blank">
@@ -36,7 +73,7 @@
                         Located in
                         Thimphu, Thimphu</h6>
                         <br>
-                        <button class="listingButton">View Listing</button>
+                        <a href="first.html"><button class="listingButton">View Listing</button></a>
                 </section>
             </div>
             <div class="imageDisplay">
@@ -44,11 +81,11 @@
                     <img class="mainImage" src="Images/image2.jpg" alt="Business2">
                 </a>
                 <section>
-                    <h6>Trip to Bhutan - Bhutan Dew Drop Travel is a licensed tour operator based in Thimphu,...
-                        Located in
-                        Thimphu, Thimphu</h6>
+                    <h6>Yatara Adventure stands out as a premier travel service provider located in Thimphu,...
+                      Located in
+                      Thimphu, Thimphu</h6>
                         <br>
-                        <button class="listingButton">View Listing</button>
+                        <a href="Second.html"><button class="listingButton">View Listing</button></a>
                 </section>
             </div>
             <div class="imageDisplay">
@@ -56,11 +93,11 @@
                     <img class="mainImage" src="Images/image3.jpg" alt="Business3">
                 </a>
                 <section>
-                    <h6>Trip to Bhutan - Bhutan Dew Drop Travel is a licensed tour operator based in Thimphu,...
-                        Located in
-                        Thimphu, Thimphu</h6>
+                    <h6>Butan is a unique travel agency located in Thimphu, Bhutan, specializing in providing...
+                      Located in
+                      Thimphu, Thimphu</h6>
                         <br>
-                        <button class="listingButton">View Listing</button>
+                        <a href="Third.html"><button class="listingButton">View Listing</button></a>
                 </section>
             </div>
         </div>
@@ -70,11 +107,11 @@
                     <img class="mainImage" src="Images/image4.jpg" alt="Business4">
                 </a>
                 <section>
-                    <h6>Trip to Bhutan - Bhutan Dew Drop Travel is a licensed tour operator based in Thimphu,...
-                        Located in
-                        Thimphu, Thimphu</h6>
+                    <h6>Wind Horse Tours Bhutan, located in the vibrant city of Thimphu, is a premier travel...
+                      Located in
+                      Thimphu, Thimphu</h6>
                         <br>
-                        <button class="listingButton">View Listing</button>
+                        <a href="forth.html"><button class="listingButton">View Listing</button></a>
                 </section>
             </div>
             <div class="imageDisplay">
@@ -82,11 +119,11 @@
                     <img class="mainImage" src="Images/image5.jpg" alt="Business5">
                 </a>
                 <section>
-                    <h6>Trip to Bhutan - Bhutan Dew Drop Travel is a licensed tour operator based in Thimphu,...
-                        Located in
-                        Thimphu, Thimphu</h6>
+                    <h6>Bhutan Delight Tours & Treks stands out as a premier tour operator in Bhutan, located...
+                      Located in
+                      Thimphu, Thimphu</h6>
                         <br>
-                        <button class="listingButton">View Listing</button>
+                        <a href="Fifth.html"><button class="listingButton">View Listing</button></a>
                 </section>
             </div>
             <div class="imageDisplay">
@@ -94,18 +131,26 @@
                     <img class="mainImage" src="Images/image6.png" alt="Business6">
                 </a>
                 <section>
-                    <h6>Trip to Bhutan - Bhutan Dew Drop Travel is a licensed tour operator based in Thimphu,...
-                        Located in
-                        Thimphu, Thimphu</h6>
+                    <h6>Basnet Attorneys & Law is a top-rated law firm in Thimphu, Bhutan,...
+                      Located in
+                      Thimphu</h6>
                         <br>
-                        <button class="listingButton">View Listing</button>
+                        <a href="sixth.html"><button class="listingButton">View Listing</button></a>
                 </section>
             </div>
         </div>
     </main>
     <br>
     <br>
-    <footer>
+    <div id="iframeDisplay">
+      <div>
+        <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.677419227959!2d89.3914174747841!3d26.850210562775004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e3cb2c210e611d%3A0x44c5cb2cd32b18d4!2sCollege%20of%20Science%20and%20Technology!5e0!3m2!1sen!2sbt!4v1740905744220!5m2!1sen!2sbt" width="500" height="400" style="border:2px solid black; margin-left: 139px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <p style="padding: 0 90px;">Wonderful place, well maintained environment. There is large area where this institution is situated. Every students ready to make their college clean. There is slogan that "let's make CST: CLEAN". There is large football play ground, a large hall room where having the facility of playing table tennis, basketball, 2 prayer roll shade and many more things. I was there to accompany my friend's seminar at 7th ISC. I enjoyed the environment. Due to their delayed delivery of certificate I was bored there for about 7 hours. It looks like a common school. I have taken my lunch break there in the college canteen.  Lunch was not so delicious and was costly too. People are so quite there.There is large football play ground, a large hall room where having the facility of playing table tennis, basketball, 2 prayer roll shade and many more things. I was there to accompany my friend's seminar at 7th ISC. I enjoyed the environment. Due to their delayed delivery of certificate I was bored there for about 7 hours. It looks like a common school. I have taken my lunch break there in the college canteen.  Lunch was not so delicious and was costly too. People are so quite there.</p>
+    </div>
+    <br>
+    <br>
+    <footer id="Reviews">
         <section id="sect1">
             <section>
                 <h3 class="footmain">About</h3>
